@@ -1,0 +1,52 @@
+.index {
+    background-color: white;
+}
+    .about {
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        margin: 20px auto;
+        max-width: 90%;
+    }
+
+    .featuredCourses {
+        text-align: center;
+    }
+      .coursesList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+      }
+      
+      .courseDetails {
+        border: 1px black;
+        padding: 10px;
+        border-radius: 8px;
+        width: 300px;
+        background-color: #fafafa;
+        box-shadow: 0px 2px 6px;
+      }
+    
+    .Testimonials {
+        text-align: center;
+    }
+
+      .TestimonialsList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 80px;
+      }
+
+      .testament {
+        border: 1px black;
+        padding: 10px;
+        border-radius: 8px;
+        width: 300px;
+        background-color: #fafafa;
+        box-shadow: 0px 2px 6px;
+      }
+    
+
+  

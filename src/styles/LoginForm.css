@@ -1,0 +1,76 @@
+
+main[class="login"], main[class="index"] {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+h2 {
+    color: #004080;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d4d4d4;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 20px 150px 0px 150px;
+    max-width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom:  20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+
+input[type="text"], input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 3px solid #b2b2b2;
+    background-color: lightyellow;
+}
+
+main button {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #008000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+main button:hover {
+    background-color: #006600;
+}
+
+main a[href="#"]{
+    color: #004080;
+    text-decoration: none;
+}
+
+main a[href="#"]:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+

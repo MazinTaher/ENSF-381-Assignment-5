@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+  }
+  
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    background-color: #003366;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+   }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-links a.active {
+    color: #007bff;
+  }
